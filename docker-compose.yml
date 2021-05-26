@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports: 
+      - "3009:3009"
+    volumes:
+      - .:/usr/src
+      - /usr/src/node_modules
