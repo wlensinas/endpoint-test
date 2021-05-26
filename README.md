@@ -4,8 +4,8 @@ This is an app in nodejs for testing porpouse.
 
 ## Endpoints
 
-GET '/' to localhost:port -> Hola
-POST '/' to localhost:port -> req.body
+* GET '/' to localhost:port -> Hola
+* POST '/' to localhost:port -> req.body
 
 ## Install
 
